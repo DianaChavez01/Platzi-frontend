@@ -1,46 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .container {
-          width: 200px;
-          height: 200px;
-          background: hotpink;
-          position: relative;
-          top:20px;
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container {
+      width: 200px;
+      height: 200px;
+      background: peachpuff;
+      position:relative;
+      top : 20px;
+    }
+    .item {
+      width: 20px;
+      height: 20px;
+      background: hotpink;
+      position:absolute;
+      right: 0;
+    }
+    nav{
+      width: 100%;
+      height: 60px;
+      background: lightcyan;
+      position: fixed;
+      top:0;
+    }
+    ul p{
+      position: sticky;
+      top: 0;
+    }
 
-        }
-        .item{
-          width: 200px;
-          height: 200px;
-          background: red;
-          position: absolute;
-          right: 0;
-        }
-        nav {
-            width: 100%;
-          height: 60px;
-          background: lightyellow;
-          position: fixed;
-        }
-        ul
-    </style>
+  </style>
 </head>
 <body>
-    <div class="container">
-        <div class="item"></div>
-    </div>
-    <nav></nav>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste cupiditate delectus molestias consequuntur quo numquam veritatis. Aperiam saepe accusantium adipisci laboriosam eligendi vitae, delectus, dolores, consectetur hic quis beatae facilis necessitatibus repellendus eos aut deleniti? Temporibus nihil labore rerum quis id cumque, voluptates odio enim aliquam explicabo tempora? Laborum voluptate iure aut alias quo numquam corrupti suscipit officia consectetur quia vitae magni ratione, harum autem? Hic consequuntur pariatur tenetur molestiae eligendi veritatis reprehenderit ad ducimus corporis facilis vero, amet tempore neque, quod molestias, quam libero laboriosam voluptas voluptatum atque saepe laborum doloremque quaerat. Impedit ea officia molestias amet sunt sequi odit consequuntur quia dignissimos nesciunt. Velit in sint hic fugit illum quidem impedit quibusdam soluta deserunt, repellendus quasi. Quos aut, nostrum veniam exercitationem minus ab, distinctio veritatis itaque voluptas doloremque consectetur vel placeat sequi magnam consequuntur tenetur repudiandae. Culpa fugiat quis illo sint delectus ipsam, quia nisi magnam repellat alias architecto praesentium. At sit recusandae voluptatum, quae excepturi optio culpa quasi cupiditate dolores eaque minus natus corrupti dicta, doloribus, architecto dolorum obcaecati earum quis deleniti. Quo obcaecati earum minus provident, odit explicabo eaque voluptatem accusamus fuga non asperiores aliquid quasi cupiditate, aliquam nisi quas quidem natus dolorum doloremque corporis possimus eius. Minima sunt suscipit rem ipsa qui, necessitatibus accusantium nam repellendus pariatur, commodi consequatur aliquid dolorem a atque quaerat aut dignissimos animi nulla itaque earum beatae inventore fuga tenetur impedit. Exercitationem ullam debitis hic asperiores quae dolores! Expedita, quae incidunt aut molestiae exercitationem, dolore reprehenderit, odio odit porro ab inventore dolores libero ut at sequi? Maxime quo quaerat nihil adipisci obcaecati iure eius eum magnam sequi delectus nobis autem porro corrupti deserunt, voluptatum, dicta non laboriosam earum numquam tempora, veniam voluptate odit natus! Vel nulla modi eos vitae eius nihil exercitationem incidunt facere commodi sed cupiditate dicta, nemo velit debitis error repudiandae optio aperiam et, accusamus laboriosam! Nulla nemo quae libero minus ipsa officia, facilis, rem quidem illo ea mollitia error? Unde, numquam, possimus enim eius in aperiam sed impedit beatae ut excepturi dolorum eligendi obcaecati ducimus officia quis corrupti odio a, ipsum harum natus assumenda tenetur voluptatibus iure. Delectus, qui. Assumenda esse est ipsa minima minus voluptate eaque maxime! Iste hic quos voluptatum ad expedita commodi porro. Harum accusamus modi est, nostrum cum porro consequatur, ad obcaecati consequuntur delectus dolor nesciunt quam inventore velit sit consectetur officia nemo magnam nobis asperiores? Iusto mollitia perspiciatis fugit voluptatibus illum eum aut repellendus accusamus laborum, numquam reiciendis, dicta possimus sed veritatis velit rerum sint quas tempore exercitationem! Amet placeat ullam facere facilis illum doloribus, consequatur iure ipsum accusantium non? Sed explicabo, accusamus optio laudantium beatae, quae odio tempora laborum possimus architecto error aliquam laboriosam nobis expedita ducimus neque nesciunt aut, amet voluptatem!</p>
+  <nav></nav>
+  <div class="container">
+     <div class="item"></div>
+  </div>
+  <p>What is Lorem Ipsum?
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    Why do we use it?
+    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+    Where does it come from?
+    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+    
+    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+
     <ul>
-        <p>Frutas</p>
-        <li>Manzanas</li>
-        <li>Peras</li>
-        <li>Sandía</li>
+      <p>Frutas</p>
+      <li>Manzana</li>
+      <li>Pera</li>
+      <li>Sandía</li>
+    </ul>
+    <ul>
+      <p>Frutas</p>
+      <li>Manzana</li>
+      <li>Pera</li>
+      <li>Sandía</li>
+    </ul>
+    <ul>
+      <p>Frutas</p>
+      <li>Manzana</li>
+      <li>Pera</li>
+      <li>Sandía</li>
+    </ul>
+    <ul>
+      <p>Frutas</p>
+      <li>Manzana</li>
+      <li>Pera</li>
+      <li>Sandía</li>
+    </ul>
+    <ul>
+      <p>Frutas</p>
+      <li>Manzana</li>
+      <li>Pera</li>
+      <li>Sandía</li>
+    </ul>
+    <ul>
+      <p>Frutas</p>
+      <li>Manzana</li>
+      <li>Pera</li>
+      <li>Sandía</li>
+    </ul>
+    <ul>
+      <p>Frutas</p>
+      <li>Manzana</li>
+      <li>Pera</li>
+      <li>Sandía</li>
+    </ul>
+    <ul>
+      <p>Frutas</p>
+      <li>Manzana</li>
+      <li>Pera</li>
+      <li>Sandía</li>
+    </ul>
+    <ul>
+      <p>Frutas</p>
+      <li>Manzana</li>
+      <li>Pera</li>
+      <li>Sandía</li>
+    </ul>
+    <ul>
+      <p>Frutas</p>
+      <li>Manzana</li>
+      <li>Pera</li>
+      <li>Sandía</li>
+    </ul>
+    <ul>
+      <p>Frutas</p>
+      <li>Manzana</li>
+      <li>Pera</li>
+      <li>Sandía</li>
     </ul>
 </body>
 </html>
